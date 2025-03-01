@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Photography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="nav-button">Home</a></li>
+                <li><a href="gallery.html" class="nav-button">Gallery</a></li>
+                <li><a href="about.html" class="nav-button">About</a></li>
+                <li><a href="contact.html" class="nav-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Photography World</h1>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> My Photography. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Dynamic Year in Footer
+        const year = new Date().getFullYear();
+        document.getElementById('year').textContent = year;
+    </script>
+</body>
+</html>
