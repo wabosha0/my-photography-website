@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - My Photography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="nav-button">Home</a></li>
+                <li><a href="gallery.html" class="nav-button">Gallery</a></li>
+                <li><a href="about.html" class="nav-button">About</a></li>
+                <li><a href="contact.html" class="nav-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kP4sLW3rl6UGBLmApDxsGD7-uA8dzMY_Cg&s" alt="Nature Photo 1" class="gallery-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcTktitgWQQL6cjcai1rTfuMed-rP6m87Anw&s" alt="Nature Photo 2" class="gallery-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXbACB9bxtRuo7rV0QILnvd41-02cJ9jUipQ&s" alt="Nature Photo 3" class="gallery-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1lrlIa6JaLso9XH5UVk41jq3SvzYEntEn4w&s" alt="Nature Photo 4" class="gallery-image">
+            <img src="https://cdn.theatlantic.com/media/img/photo/2021/11/winners-2021-natural-landscape-phot/a02_proy_539__5138/main_1500.jpg" alt="Nature Photo 5" class="gallery-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSICRloqnfSQPvIDnmBIZ-_LBFfEdf4gosU-g&s" alt="Nature Photo 6" class="gallery-image">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> My Photography. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Dynamic Year in Footer
+        const year = new Date().getFullYear();
+        document.getElementById('year').textContent = year;
+    </script>
+</body>
+</html>
