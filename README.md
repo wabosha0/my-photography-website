@@ -50,8 +50,4 @@ Settings → Pages → Deploy from a branch → `main` / root → Save.
 - External links use `rel="noopener noreferrer"`
 - Only external resource loaded is the Font Awesome icon stylesheet on the contact page
 
-## Next steps
 
-- Replace placeholder images with my own photos
-- Add real contact and social links
-- Add a short caption to each photo
